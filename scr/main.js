@@ -5,7 +5,6 @@
 // 3 - Ordenar los juegos de menor precio a mayor precio
 // 4 - Ordenar los juegos alfabéticamente
 
-
 const arrayJuegos = [
     { nombre:'JUST CAUSE 3 PS4', precio:'1290'},
     { nombre:'MARVELS SPIDER-MAN PS4', precio:'2490'},
@@ -33,7 +32,6 @@ do { juego = prompt(`
     MORTAL KOMBAT 11 ULTIMATE PS4 ---- $1550
     GRAND THEFT AUTO PS4 ---------------- $3250`);
     }while ((juego <= 0) || (juego > 3))
-
 
 //ORDENADO DE MENOR A MAYOR
 
@@ -143,5 +141,6 @@ if( juego == 3 ){
     console.log(arrayJuegos[6].nombre + " " + "$" + arrayJuegos[6].precio)
     console.log(arrayJuegos[7].nombre + " " + "$" + arrayJuegos[7].precio)
     }
+
 
 // German Ariel Becerra
